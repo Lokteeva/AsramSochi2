@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family:AlmaSans, Caveat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('./fonts/Caveat-Bold.eot');
+  src: local('./fonts/Caveat Bold'), local('Caveat-Bold'),
+      url('./fonts/Caveat-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Caveat-Bold.woff') format('woff'),
+      url('./fonts/Caveat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('./fonts/Caveat-Regular.eot');
+  src: local('./fonts/Caveat Regular'), local('Caveat-Regular'),
+      url('./fonts/Caveat-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Caveat-Regular.woff') format('woff'),
+      url('./fonts/Caveat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alma Sans';
+  src: url('./fonts/AlmaSans-Regular.eot');
+  src: local('./fonts/Alma Sans Regular'), local('AlmaSans-Regular'),
+      url('./fonts/AlmaSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/AlmaSans-Regular.woff2') format('woff2'),
+      url('./fonts/AlmaSans-Regular.woff') format('woff'),
+      url('./fonts/AlmaSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
