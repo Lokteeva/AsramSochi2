@@ -18,10 +18,9 @@ function App() {
         <h3 className='ZagolovokGrey'>Проведи свой незабываемый отпуск в Ашраме Сочи!</h3>
         
           <div className='nav2'>
+            <div></div>            
             <div className='center-div'>
-            <button className='btn1'>Оставить заявку</button>            
-            </div>
-            <div className='center-div'>
+            <button className='btn1'>Оставить заявку</button> 
             <button className='btn2'>Принять участие</button>
             </div>
           </div>   
@@ -166,19 +165,19 @@ function App() {
 </div>
 
 <div className='GridThree'>
-  <div><img src="/10.jpg" className="imgSirclBig" alt="img"></img></div>
-  <div><img src="/img147.jpg" className="imgSirclBig" alt="img"></img></div>
-  <div><img src="/img144.jpg" className="imgSirclBig" alt="img"></img></div>
+  <div><img src="/10.jpg" className="imgSirclBig2" alt="img"></img></div>
+  <div><img src="/img147.jpg" className="imgSirclBig2" alt="img"></img></div>
+  <div><img src="/img144.jpg" className="imgSirclBig2" alt="img"></img></div>
 </div>
-
 <br/>
-
+<br/>
+<br/>
   <div className="">
       <h3 className='Zagolovok'>Ведический храм </h3>
       <h3 className='Candara3'>Храм Их Светлостей Шри Шри Нитай Гаурасундары<br/>
 и Шри Шри Джаганнатха Баладева и Субхарды</h3>
   </div>
-
+<br/>
 <div className="liSection">
   <div><img src="/11.jpg" className="img" alt="img"></img></div>
   <div>
@@ -213,7 +212,7 @@ function App() {
 </div> 
 </div>
 <br/>
-
+<br/>
 <div className='GridThree'>
   <div><img src="/img163.jpg" className="imgSirclBig" alt="img"></img></div>
   <div><img src="/img161.jpg" className="imgSirclBig" alt="img"></img></div>
@@ -543,19 +542,9 @@ function App() {
       <details>
         <summary className='Podrobnee'>подробнее</summary>
         <p>Обустроенная набережная с велодорожками  и спортивными островками</p>
-      </details>
-       
+      </details>       
 </td>
     </tr>
-    </tbody>
-  </table>
-  </div> 
-</div>
-<br/>
-<div className="liSection5">
-<div>
-  <table class="table" cellspacing="20">
-  <tbody>
     <tr>
       <th scope="row" valign="top">
       <img src="/logo.png" className="imgLogo" alt="img"></img>
@@ -569,6 +558,15 @@ function App() {
       </details>
       </td>
     </tr>
+    </tbody>
+  </table>
+  </div> 
+</div>
+<br/>
+<div className="liSection5">
+<div>
+  <table class="table" cellspacing="20">
+  <tbody>   
     <tr>
     <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
       <td className='Candara2'>Высокогорье Красная поляна (до 2500 м) 
@@ -588,6 +586,14 @@ function App() {
       </details>
       </td>
     </tr>
+    <tr>
+      <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
+      <td className='Candara2'>Аэропорт и ж/д вокзала 20-30 мин. такси</td>
+    </tr>
+    <tr>
+    <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
+      <td className='Candara2'>Центр Сочи 15-20 мин. Автобус</td>
+    </tr>
     </tbody>
   </table>
   </div>
@@ -600,7 +606,6 @@ function App() {
 </div> 
 </div>
 <br/>
-
 <div className="liSection5">
 <div className='Grid2x2'>
   <div><img src="/img254.jpg" className="imgCub" alt="img"></img></div>
@@ -631,15 +636,7 @@ function App() {
       <p>Магнит, Пятерочка, ярмарка с местными фруктами, овощами, фермерскими молочными продуктами и пр.</p>
       </details>
       </td>
-    </tr>
-    <tr>
-      <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Аэропорт и ж/д вокзала 20-30 мин. такси</td>
-    </tr>
-    <tr>
-    <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Центр Сочи 15-20 мин. Автобус</td>
-    </tr>
+    </tr>   
     <tr>
       <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
       <td className='Candara2'>Ж/д станция Мацеста 15 мин пешком</td>
@@ -663,8 +660,8 @@ function App() {
 </div>
 <br/>
 
-    <h3 className='Zagolovok'>Дополнительные сервисы и возможности<br/> 
-    <span className='ZagolovokGrey'>ОЗДОРОВЛЕНИЕ и СПОРТ</span></h3>       
+    <h3 className='ZagolovokGrey'>Дополнительные сервисы и возможности<br/> 
+    <span className='Zagolovok'>ОЗДОРОВЛЕНИЕ и СПОРТ</span></h3>       
  
 <div className="liSection">
 <div>
@@ -700,7 +697,7 @@ function App() {
 </div> 
 </div>
 
-<div className="liSection">
+<div className="liSectionM">
 <div>
   <div><img src="/img272.jpg"  className='imgSicleSuperBig' alt="img"></img></div>
 </div>
@@ -818,12 +815,12 @@ function App() {
 </div>
 <br/>
 
-    <h3 className='ZagolovokGrey'>АКТИВНЫЙ ОТДЫХ и ДЕТСКИЕ ПРОГРАММЫ</h3>       
-  
+    <h3 className='Zagolovok'>АКТИВНЫЙ ОТДЫХ и ДЕТСКИЕ ПРОГРАММЫ</h3>       
 
-<div className="liSection5">
-<div>
-  <table class="table" cellspacing="20">
+    <div className='oo'>
+      <div></div>
+ <div className='center-div'>
+ <table class="table" cellspacing="20">
   <tbody>
     <tr>
       <th scope="row">
@@ -841,20 +838,27 @@ function App() {
     </tr>    
     </tbody>
   </table>
-  <div><img src="/img287.jpg"  className='imgLi' alt="img"></img></div>
-  </div>
+ </div>
+</div>
 
-<div>
+<div className="liSection">
+  <div><img src="/img287.jpg"  className='imgLi' alt="img"></img></div>
   <div><img src="/img13.jpg"  className='imgLi' alt="img"></img></div>
-</div> 
 </div>
 
 <br/>
 
-    <h3 className='Zagolovok'>Путешествия и экскурсии</h3>       
+    <h3 className='Zagolovok'>ПУТЕШЕСТВИЯ и ЭКСКУРСИИ</h3>       
  
 
 <div className="liSection5">
+<div className='Grid2x2'>
+  <div><img src="/img302.jpg" className="imgCub" alt="img"></img></div>
+  <div><img src="/img300.jpg" className="imgCub" alt="img"></img></div>
+  <div><img src="/img301.jpg" className="imgCub" alt="img"></img></div>
+  <div><img src="/img299.jpg" className="imgCub" alt="img"></img></div>
+</div>
+
 <div>
   <table class="table" cellspacing="20">
   <tbody>
@@ -870,19 +874,11 @@ function App() {
     </tr>     
     </tbody>
   </table>
-  </div>
-
-  <div className='Grid2x2'>
-  <div><img src="/img302.jpg" className="imgCub" alt="img"></img></div>
-  <div><img src="/img300.jpg" className="imgCub" alt="img"></img></div>
-  <div><img src="/img301.jpg" className="imgCub" alt="img"></img></div>
-  <div><img src="/img299.jpg" className="imgCub" alt="img"></img></div>
+  </div>  
 </div>
-</div>
-
 <br/>
 
-    <h3 className='Zagolovok'>Досуг и активный отдых</h3>       
+    <h3 className='Zagolovok'>ДОСУГ и АКТИВНЫЙ ОТДЫХ</h3>       
  
 
 <div className="liSection5">

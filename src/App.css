@@ -69,7 +69,7 @@ footer{
   }
 .nav2{
   display: grid;  
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 }
 .btn1:hover{
@@ -136,6 +136,7 @@ h3{
 }
 h2{
  color: white;
+ padding-right: 20px;
 }
 .h3Black{
   color:black;
@@ -214,8 +215,16 @@ h2{
   grid-template-columns: 1fr 1fr;
   align-items: center;
   }
+  .liSectionM{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: -150px;
+    margin-bottom: -150px;
+    }
 .imgLi{
-  width: 100%;
+  width: 99%;
+  padding: 5px;
 }
 .AlmaItalic{
   font-family: AlmaSans;
@@ -250,12 +259,18 @@ h2{
     height: 80%;    
 }
 .imgSirclBig{
-  width: 70%;
+  width: 90%;
+  border-radius: 50%;
+  border: 2px solid rgb(1, 3, 99);
+}
+.imgSirclBig2{
+  width: 90%;
+  height: 110%;
   border-radius: 50%;
   border: 2px solid rgb(1, 3, 99);
 }
 .imgSicleSuperBig{
-  width: 80%; 
+  width: 90%; 
   border-radius: 50%;
   border: 2px solid rgb(1, 3, 99);
 }
