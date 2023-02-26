@@ -663,10 +663,10 @@ function App() {
 </div>
 <br/>
 
-    <h3 className='Zagolovok'>Дополнительные сервисы и <br/>возможности: оздоровление и спорт</h3>       
+    <h3 className='Zagolovok'>Дополнительные сервисы и возможности<br/> 
+    <span className='ZagolovokGrey'>ОЗДОРОВЛЕНИЕ и СПОРТ</span></h3>       
  
-
-<div className="liSection5">
+<div className="liSection">
 <div>
   <table class="table" cellspacing="20">
   <tbody>
@@ -690,8 +690,24 @@ function App() {
       <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
       <td className='Candara2'>Биоэнергетическое лечение, лечение натуральными маслами
       </td>
-    </tr>
-    <tr>
+    </tr>    
+    </tbody>
+  </table>
+</div>
+
+<div>
+  <div><img src="/img265.jpg"  className='imgSicleSuperBig' alt="img"></img></div>
+</div> 
+</div>
+
+<div className="liSection">
+<div>
+  <div><img src="/img272.jpg"  className='imgSicleSuperBig' alt="img"></img></div>
+</div>
+<div>
+  <table class="table" cellspacing="20">
+  <tbody>
+  <tr>
     <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
       <td className='Candara2'>Консультации по оздоровительным программам
       <details>
@@ -705,21 +721,7 @@ function App() {
       <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
       <td className='Candara2'>25 мин. езды до аюрведической клиники «Расаяна»</td>
     </tr>
-    </tbody>
-  </table>
-  </div>
-
-<div>
-  <div><img src="/img265.jpg"  className='imgSicleSuperBig' alt="img"></img></div>
-</div> 
-</div>
-
-<br/>
-<div className="liSection5">
-<div>
-  <table class="table" cellspacing="20">
-  <tbody>
-    <tr>
+    <tr>      
       <th scope="row" valign="top">
       <img src="/logo.png" className="imgLogo" alt="img"></img>
       </th>
@@ -755,28 +757,25 @@ function App() {
     
     </tbody>
   </table>
-  </div>
-
-<div>
-  <div><img src="/img272.jpg"  className='imgSicleSuperBig' alt="img"></img></div>
-</div> 
+  </div> 
 </div>
 
-<br/>
-<div className="liSection5">
+<div className="liSection ">
 <div>
-  <table class="table" cellspacing="20">
-  <tbody>
+<table class="table" cellspacing="0">
+  <tbody>    
     <tr>
       <th scope="row" valign="top">
       <img src="/logo.png" className="imgLogo" alt="img"></img>
       </th>
       <td className='Candara2'>Оздоровительные программы в бальнеологическом курорте Мацеста* 
-      <details>
+      
+      <details>      
       <summary className='Podrobnee'>подробнее</summary>
+      <div className='liSection'>
       <tr>
-    <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Бальнеотерапия — это оздоровление минеральными водами и лечебными грязями.</td>
+    <th scope="row" ><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
+      <td className='Candara2'><span className='Candara3'>Бальнеотерапия</span>- это оздоровление минеральными водами и лечебными грязями.</td>
     </tr>
     <tr>
       <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
@@ -785,32 +784,41 @@ function App() {
     </tr>
     <tr>
     <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Минздравом РФ утверждены методики лечения на Мацесте более 1500 заболеваний, с помощью сероводородных, родоновых,
-йодобромных ванн, питьевой минеральной мацестинской воды и грязелечения.</td>
+      <td className='Candara2'>Минздравом РФ утверждены методики лечения на Мацесте<span className='Candara3'> более 1500</span>  заболеваний, с помощью сероводородных, родоновых,
+йодобромных ванн, питьевой минеральной мацестинской воды и грязелечения.
+<p className='Candara2'>* 30 мин. прогулки вдоль красивой набережной 
+или 12 мин на маршрутке </p>
+</td>
     </tr>
+    
     <tr>
       <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
       <td className='Candara2'>Ученые в ходе исследований выяснили, что Мацестинский
-сероводород замедляет процесс старения, активизируя «гормон молодости» - Сиртуин-1.</td>
+сероводород замедляет процесс старения, активизируя «гормон молодости» - <span className='Candara3'>Сиртуин-1</span>
+
+</td>
     </tr>
+      </div>
+    
+    
+  
+ 
+    <div><img src="/img12.jpg"  className='imgLi' alt="img"></img></div>
       </details>
       </td>
     </tr>
     
     </tbody>
   </table>
-  </div>
-
-<div>
-  <div><img src="/img12.jpg"  className='imgLi' alt="img"></img></div>
-</div> 
 </div>
 
-<p className='Candara2'>* 30 мин. прогулки вдоль красивой набережной или 12 мин на маршрутке </p>
-
+<div >
+  <div ><img src="/12.jpg"  className='imgSicleSuperBig ' alt="img"></img></div>
+</div> 
+</div>
 <br/>
 
-    <h3 className='Zagolovok'>Активный отдых и детские программы</h3>       
+    <h3 className='ZagolovokGrey'>АКТИВНЫЙ ОТДЫХ и ДЕТСКИЕ ПРОГРАММЫ</h3>       
   
 
 <div className="liSection5">
