@@ -22,8 +22,7 @@ function App() {
             </div>
           </div>   
          
-      
-        <h3 className='Zagolovok'>Практика или отдых и оздоровление?</h3>
+<h3 className='Zagolovok'>Практика или отдых и оздоровление?</h3>
                   
 <div className="liSection">
 <div>
@@ -80,30 +79,33 @@ function App() {
 <img src="/placat.jpg" className="placat " alt="img"></img>
 </div>
 
-<div className='oo'>
-  <div className='ww'>
-    <div>.</div>
-    <div><img src="/img111.jpg" className="imgSircl" alt="img"></img></div>
-    <div><img src="/img113.jpg" className="imgSircl" alt="img"></img></div>
-    <div><img src="/img115.jpg" className="imgSircl" alt="img"></img></div>
-    <div>.</div>
-  </div>
-  <div className='Candara2 '>
-    <div className='MarginForText'>Погрузиться в духовную атмосферу и укрепить свою садхану</div>
-    <div className='MarginForText'>Получить вкус к джаппа-медитации и слушанию священных писаний</div>
-    <div className='MarginForText'>Окунуться в совместное служение и научиться сотрудничеству</div>
-    <div className='MarginForText'>Найти единомышленников и обрести новых друзей</div>
-    <div className='MarginForText'>Эффективно пройти обучение по Вашей образовательной программе в комфортных условиях и располагающей к занятиям атмосфере</div>
-  </div>
-  
-  <div className='ww2'>
-    <div>.</div>
-    <div><img src="/img117.jpg" className="imgSircl" alt="img"></img></div>
-    <div>.</div>
-    <div><img src="/img119.jpg" className="imgSircl" alt="img"></img></div>
-    <div>.</div>
-  </div>
+<div className='grid1 Candara2'>  
+    <div className='ww'><img src="/img111.jpg" className="imgSircl" alt="img"></img></div>
+    <div>
+      <p>Погрузиться в духовную атмосферу и укрепить свою садхану</p>
+      <p>Получить вкус к джаппа-медитации и слушанию священных писаний</p>
+    </div>
 </div>
+
+    <div className='grid1 Candara2 '>
+        <div className='ww'><img src="/img113.jpg" className="imgSircl" alt="img"></img></div>
+        <div>
+          <p className='text1'>Окунуться в совместное служение и научиться сотрудничеству</p>
+          <p>Найти единомышленников и обрести новых друзей</p>
+        </div>
+    </div>
+
+<div className='grid1 Candara2'>
+        <div className='ww'><img src="/img119.jpg" className="imgSircl" alt="img"></img></div>
+        <div>
+          <p>Эффективно пройти обучение по Вашей образовательной программе</p>
+          <p> в комфортных условиях и располагающей к занятиям атмосфере</p>
+        </div>
+</div>
+  
+  
+ 
+
 
 <div className='Candara3 liSection2'>
 <div>
