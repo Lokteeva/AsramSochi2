@@ -30,7 +30,7 @@ function App() {
                   
 <div className="liSection">
 <div>
-  <table cellspacing="20" >
+  <table className="table" cellSpacing="20" >
   <tbody>
     <tr>
       <th scope="row">
@@ -128,7 +128,7 @@ function App() {
 
 <div className="liSection">
 <div >
-  <table cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row">
@@ -181,7 +181,7 @@ function App() {
 <div className="liSection">
   <div><img src="/11.jpg" className="img" alt="img"></img></div>
   <div>
-  <table cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row">
@@ -219,13 +219,12 @@ function App() {
   <div><img src="/img159.jpg" className="imgSirclBig" alt="img"></img></div>
 </div>
 <br/>
-
 <br/> 
       <h3 className='Zagolovok'>Центр ведической культуры</h3> 
         
 <div className="liSection">
 <div>
-  <table cellspacing="30">
+  <table className="table" cellSpacing="30">
   <tbody>
     <tr>
       <th scope="row">
@@ -267,7 +266,7 @@ function App() {
    
 <div className="liSection">
 <div>
-  <table cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row" valign="top">
@@ -307,7 +306,7 @@ function App() {
   </div>
 
   <div>
-  <table cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>
   <tr>
     <th scope="row"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
@@ -363,7 +362,7 @@ function App() {
 <img src="/img210.jpg" className="imgLi" alt="img"></img>
 </div>
 <div>
-<table cellspacing="20">
+<table className="table" cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row" valign="top">
@@ -511,7 +510,7 @@ function App() {
 <img src="/img11.jpg" className="imgLi" alt="img"></img>
 </div>
 <div>
-  <table class="table" cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row" valign="top">
@@ -568,7 +567,7 @@ function App() {
 <br/>
 <div className="liSection">
 <div>
-  <table class="table" cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>   
     <tr>
     <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
@@ -617,7 +616,7 @@ function App() {
   <div><img src="/img256.jpg" className="imgCub" alt="img"></img></div>
 </div> 
 <div>
-  <table class="table" cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row" valign="top">
@@ -668,7 +667,7 @@ function App() {
  
 <div className="liSection">
 <div>
-  <table class="table" cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row">
@@ -705,7 +704,7 @@ function App() {
   <div><img src="/img272.jpg"  className='imgSicleSuperBig' alt="img"></img></div>
 </div>
 <div>
-  <table className="table" cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>
   <tr>
     <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
@@ -761,7 +760,7 @@ function App() {
 
 <div className="liSection ">
 <div>
-<table className="table" cellspacing="20">
+<table className="table" cellSpacing="20">
   <tbody>    
     <tr>
       <th scope="row" valign="top">
@@ -817,12 +816,12 @@ function App() {
 </div>
 <br/>
 
-    <h3 className='Zagolovok'>АКТИВНЫЙ ОТДЫХ и ДЕТСКИЕ ПРОГРАММЫ</h3>       
+<h3 className='Zagolovok'>АКТИВНЫЙ ОТДЫХ и ДЕТСКИЕ ПРОГРАММЫ</h3>       
 
-    <div className='oo'>
+<div className='oo'>
       <div></div>
  <div className='center-div'>
- <table class="table" cellspacing="20">
+ <table className="table" cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row">
@@ -847,10 +846,9 @@ function App() {
   <div><img src="/img287.jpg"  className='imgLi' alt="img"></img></div>
   <div><img src="/img13.jpg"  className='imgLi' alt="img"></img></div>
 </div>
-
 <br/>
 
-    <h3 className='Zagolovok'>ПУТЕШЕСТВИЯ и ЭКСКУРСИИ</h3>       
+<h3 className='Zagolovok'>ПУТЕШЕСТВИЯ и ЭКСКУРСИИ</h3>       
  
 
 <div className="liSection5">
@@ -862,7 +860,7 @@ function App() {
 </div>
 
 <div>
-  <table class="table" cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row">
@@ -880,13 +878,13 @@ function App() {
 </div>
 <br/>
 
-    <h3 className='Zagolovok'>ДОСУГ и АКТИВНЫЙ ОТДЫХ</h3>       
+<h3 className='Zagolovok'>ДОСУГ и АКТИВНЫЙ ОТДЫХ</h3>       
  
 
 <div className="liSection5">
   <div>
   <p className='Candara2'>Что еще интересного рядом с Ашрамом:</p>
-  <table class="table" cellspacing="20">
+  <table className="table" cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row">
@@ -922,20 +920,13 @@ function App() {
 </div>
 </div>
 <p className='Candara2'>* SUP серфинг - это скольжение по воде при помощи доски и весла</p>
-
 <br/>
 <footer>
 <div><img src="/logoWhite.png" className="logo2" alt="img"></img></div>
-  <div className="">
-     
+  <div >     
     <h3 className='Candara2White'>Адрес: г. Сочи, ул. Фурманова, д. 38</h3>     
-  
     <h3 className='Candara2White'>По вопросам организации:<br/>+7-988-487-65-27 Ольга 
-     
     </h3>
-    
-  
-
   </div>
 </footer>
 </div> 
