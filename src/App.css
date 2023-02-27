@@ -24,6 +24,8 @@ header{
   user-select: none;
   width: 170px;
   font-size: 16px;
+  box-shadow: 5px 7px 7px  rgb(73, 72, 72);
+  cursor: pointer;
 }
 .btn2{
    margin: 10px;
@@ -37,6 +39,8 @@ header{
   user-select: none;
   width: 170px;
   font-size: 16px;
+  box-shadow: 5px 7px 7px  rgb(73, 72, 72);
+  cursor: pointer;
 }
 footer{
   display: grid;
@@ -72,22 +76,6 @@ footer{
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 }
-.btn1:hover{
-background-color: rgb(143, 144, 144);
-color: white;
-border: none;
-box-shadow: 5px 7px 7px  rgb(73, 72, 72);
-cursor: pointer;
-width: 150px;
-}
-.btn2:hover{
-  background-color: rgb(222, 222, 222);
-  color: rgb(65, 126, 172);
-  border: 1px solid grey;
-  box-shadow: 5px 7px 7px  rgb(73, 72, 72);
-  cursor: pointer;
-  width: 150px;
-  }
 .center-div{
      margin: 0 auto;
 }

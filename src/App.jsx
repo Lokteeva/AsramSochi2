@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import Modal from './Components/Modal/Modal'
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
             <div></div>            
             <div className='center-div'>
             <button className='btn1'>Оставить заявку</button> 
-            <button className='btn2'>Контакты</button>
+            <Modal />
             </div>
-          </div>   
+          </div>         
          
 <h3 className='Zagolovok'>Практика или отдых и оздоровление?</h3>
                   
