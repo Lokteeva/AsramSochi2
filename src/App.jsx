@@ -7,10 +7,7 @@ function App() {
     <div className="app">
       <header>
       <h1 className='logo'>Духовное развитие, активный отдых и оздоровление!</h1>
-                        <nav className='nav1'>
-                        <h2  href="#">Оставить заявку</h2>
-                        <h2  href="#">Контакты</h2>
-                        </nav>
+                       
       </header>
       <div className='bannerSection'>               
                 <img src={'/img10.jpg'} alt="img" className='imgBanner' width="100%"/> 
