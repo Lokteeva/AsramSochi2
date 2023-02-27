@@ -21,7 +21,7 @@ function App() {
             <div></div>            
             <div className='center-div'>
             <button className='btn1'>Оставить заявку</button> 
-            <button className='btn2'>Принять участие</button>
+            <button className='btn2'>Контакты</button>
             </div>
           </div>   
          
@@ -114,7 +114,7 @@ function App() {
 </div>
 
 <div><h3 className='Zagolovok'>И еще бонусы ...</h3>
-<h3 className='Candara3'>Спорт, активный отдых с хорошей компанией на море, в горах или в национальном парке, 
+<h3 className='Candara2'>Спорт, активный отдых с хорошей компанией на море, в горах или в национальном парке, 
 увлекательные путешествия и оздоровительные программы, детский досуг</h3><br/>
 <div className='GridThree'>
   <div><img src="/img132.jpg" className="imgSirclBig" alt="img"></img></div>
@@ -174,7 +174,7 @@ function App() {
 <br/>
   <div className="">
       <h3 className='Zagolovok'>Ведический храм </h3>
-      <h3 className='Candara3'>Храм Их Светлостей Шри Шри Нитай Гаурасундары<br/>
+      <h3 className='ZagolovokGrey'>Храм Их Светлостей Шри Шри Нитай Гаурасундары<br/>
 и Шри Шри Джаганнатха Баладева и Субхарды</h3>
   </div>
 <br/>
@@ -372,7 +372,7 @@ function App() {
       <details>
         <summary className='Podrobnee'>подробнее</summary>
         <div>
-  <table class="table">
+<table className='table' cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row">
@@ -420,7 +420,7 @@ function App() {
 <details>
         <summary className='Podrobnee'>подробнее</summary>
         <div>
-  <table >
+  <table className='table' cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row">
@@ -462,7 +462,7 @@ function App() {
  
 <div className="liSection ">  
 <div>
-  <table cellspacing="20">
+  <table className='table' cellSpacing="20">
   <tbody>
     <tr>
       <th scope="row">
@@ -852,13 +852,6 @@ function App() {
  
 
 <div className="liSection5">
-<div className='Grid2x2'>
-  <div><img src="/img302.jpg" className="imgCub" alt="img"></img></div>
-  <div><img src="/img300.jpg" className="imgCub" alt="img"></img></div>
-  <div><img src="/img301.jpg" className="imgCub" alt="img"></img></div>
-  <div><img src="/img299.jpg" className="imgCub" alt="img"></img></div>
-</div>
-
 <div>
   <table className="table" cellSpacing="20">
   <tbody>
@@ -874,7 +867,14 @@ function App() {
     </tr>     
     </tbody>
   </table>
-  </div>  
+  </div> 
+
+<div className='Grid2x2'>
+  <div><img src="/img302.jpg" className="imgCub" alt="img"></img></div>
+  <div><img src="/img300.jpg" className="imgCub" alt="img"></img></div>
+  <div><img src="/img301.jpg" className="imgCub" alt="img"></img></div>
+  <div><img src="/img299.jpg" className="imgCub" alt="img"></img></div>
+</div>
 </div>
 <br/>
 
@@ -921,6 +921,7 @@ function App() {
 </div>
 <p className='Candara2'>* SUP серфинг - это скольжение по воде при помощи доски и весла</p>
 <br/>
+
 <footer>
 <div><img src="/logoWhite.png" className="logo2" alt="img"></img></div>
   <div >     

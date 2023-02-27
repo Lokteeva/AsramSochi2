@@ -99,37 +99,6 @@ width: 150px;
 .imgBanner{
   width: 100%;
 }
-.banner2{
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: end;
-  align-items: center;
-  background-image: url("/public/fon.png");
-  background-position: center;
-  background-size: cover;
-  padding-top: 15px;
-  padding-bottom: 100px;
-}
-.banner3{
-  justify-items: end;
-  align-items: center;
-  background-image: url("/public/fon.png");
-  background-position: center;
-  background-size: cover;
-  padding-top: 15px;
-  padding-bottom: 200px;
-  text-align: center;
-}
-.banner4{
-  justify-items: end;
-  align-items: center;
-  background-image: url("/public/Scr1.jpg");
-  background-position: center;
-  background-size: cover;
-  padding-top: 15px;
-  padding-bottom: 340px;
-  text-align: center;
-}
 h3{
  margin:10px;
  color: white; 
@@ -169,13 +138,13 @@ h2{
 }
 .Zagolovok{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 37px;
+  font-size: 25px;
   color: rgb(50, 86, 158);
   text-align: center;
 }
 .ZagolovokGrey{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 37px;
+  font-size: 25px;
   color: rgb(130, 132, 137);
   text-align: center;
 }
@@ -183,31 +152,25 @@ h2{
   width: 100%;
 }
 .imgLogo{
-  width: 40px;
+  width: 20px;
   margin-left: 20px;
  }
 .Candara2{
   font-family: AlmaSans;
-  font-size: 25px;
+  font-size: 18px;
   color: rgb(1, 56, 71);
 }
 .Candara2White{
   font-family: AlmaSans;
-  font-size: 25px;
+  font-size: 18px;
   color: rgb(255, 255, 255);
 }
 .Candara3{
     font-family: AlmaSans;
-    font-size: 30px;
-    color: rgb(1, 56, 71);
+    font-size: 22px;
+    color: rgb(32, 73, 111);
     font-weight: 600;
     text-align: center;
-}
-.Candara4{
-  font-family: AlmaSans;
-  font-size: 20px;
-  color: rgb(1, 56, 71);
-  font-weight: 200;
 }
 .Candara3White{
   font-family: AlmaSans;
@@ -219,8 +182,7 @@ h2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  }
-  
+  }  
 .imgLi{
   width: 99%;
   height: 99%;
