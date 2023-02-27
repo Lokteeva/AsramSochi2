@@ -334,7 +334,7 @@ function App() {
       Дополнительные сервисы и возможности*<br/> 
       <details>
         <summary className='Podrobnee'>подробнее</summary>
-        <p>Детский досуг, оздоровительные программы и увлекательные<br/>
+        <p>Детский досуг, оздоровительные программы и увлекательные
  путешествия, спорт, активный отдых</p>
  <p className='Candara4'>
   * Дополнительные сервисы не входят в стоимость проживания, 
@@ -371,81 +371,28 @@ function App() {
       <td className='Candara2'> Конференц-зал (60 м2)
       <details>
         <summary className='Podrobnee'>подробнее</summary>
+        <p>Зал вместимостью более 50 человек</p>
+        <p>Светлое просторное помещение, отдельный вход, высокие потолки и окна</p>
+        <p>2 мощных кондиционера</p>
+        <p>Телевизор для презентаций/трансляций</p>
+        <p>Проектор с экраном</p>
+        <p>Звуковое оборудование, микрофоны</p>
+        <p>Доска маркерная и доска с блокнотом</p>
         <div>
-<table className='table' cellSpacing="20">
-  <tbody>
-    <tr>
-      <th scope="row">
-      <img src="/point.jpg" className="imgLogo" alt="img"></img>
-      </th>
-      <td className='Candara2'>зал вместимостью более 50 человек</td>
-    </tr>
-    <tr>
-    <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-    <td className='Candara2'>светлое просторное помещение, <br/> отдельный вход, высокие потолки и окна</td>
-    </tr>
-    <tr>
-      <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>2 мощных кондиционера</td>
-    </tr>
-    <tr>
-      <th scope="row">
-      <img src="/point.jpg" className="imgLogo" alt="img"></img>
-      </th>
-      <td className='Candara2'>телевизор для презентаций/трансляций</td>
-    </tr>
-    <tr>
-    <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-    <td className='Candara2'>проектор с экраном</td>
-    </tr>
-    <tr>
-      <th scope="row">
-      <img src="/point.jpg" className="imgLogo" alt="img"></img>
-      </th>
-      <td className='Candara2'>звуковое оборудование, микрофоны</td>
-    </tr>
-    <tr>
-    <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-    <td className='Candara2'>доска маркерная и доска с блокнотом</td>
-    </tr>
-    </tbody>
-  </table>
-</div>
+        </div>
       </details>
       </td>
     </tr>
     <tr>
     <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
       <td className='Candara2'>Коворкинг зона * 
-<details>
+      <details>
         <summary className='Podrobnee'>подробнее</summary>
-        <div>
-  <table className='table' cellSpacing="20">
-  <tbody>
-    <tr>
-      <th scope="row">
-      <img src="/point.jpg" className="imgLogo" alt="img"></img>
-      </th>
-      <td className='Candara2'>просторная комната для индивидуальных и<br/> групповых занятий/встреч (до 10 человек)</td>
-    </tr>
-    <tr>
-    <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-    <td className='Candara2'>удобные рабочие места</td>
-    </tr>
-    <tr>
-      <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>офисное оборудование: ноутбуки, принтер</td>
-    </tr>
-    <tr>
-      <th scope="row">
-      <img src="/point.jpg" className="imgLogo" alt="img"></img>
-      </th>
-      <td className='Candara2'>мультимедия телевизор для презентаций</td>
-    </tr>    
-    </tbody>
-  </table>
-  <p className='Candara4'>* Дополнительные сервисы не входят в стоимость проживания, организуются по запросу и предварительной договоренности</p>
-</div>
+        <p>Просторная комната для индивидуальных и групповых занятий/встреч (до 10 человек)</p>
+        <p>Удобные рабочие места</p>
+        <p>Офисное оборудование: ноутбуки, принтер</p>
+        <p>Мультимедия телевизор для презентаций</p>
+        <p className='Candara4'>* Дополнительные сервисы не входят в стоимость проживания, организуются по запросу и предварительной договоренности</p>
       </details></td>
     </tr>
     <tr>
@@ -727,29 +674,18 @@ function App() {
       <td className='Candara2'>Тренировки по скандинавской ходьбе на Терренкуре 
       <details>
       <summary className='Podrobnee'>подробнее</summary>
-      <tr>
-    <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>(10 мин. пешком от Ашрама) «Тропа Здоровья» проходит вдоль моря и среди
-разнообразных тропических деревьев и растений.</td>
-    </tr>
-    <tr>
-      <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Терренкур переводится как лечение на местности — это
+      <p>10 мин. пешком от Ашрама</p>
+      <p>«Тропа Здоровья» проходит вдоль моря и среди
+разнообразных тропических деревьев и растений.</p>
+    <p>Терренкур переводится как лечение на местности — это
 метод санаторно-курортного лечения, который предусматривает физические нагрузки в виде активных пеших
-прогулок по гористой местности.</td>
-    </tr>
-    <tr>
-    <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Этот вид спорта улучшает работу сердечно-сосудистой
+прогулок по гористой местности.</p>
+    <p>Этот вид спорта улучшает работу сердечно-сосудистой
 системы, органов дыхания, ускоряет обмен веществ, и приводит в порядок нервную систему и способствует
 психоэмоциональной стабильности. Помогает укрепить вестибулярный и опорно-двигательный аппараты, суставы,
-выпрямить осанку, снизить уровень плохого холестерина, нормализовать сон и избавиться от депрессии.</td>
-    </tr>
-    <tr>
-      <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>А еще вы будете в отличной форме, так как задействуются
-90% мышц корпуса, больше чем при беге и велоспорте.</td>
-    </tr>
+выпрямить осанку, снизить уровень плохого холестерина, нормализовать сон и избавиться от депрессии.</p>
+    <p>А еще вы будете в отличной форме, так как задействуются
+90% мышц корпуса, больше чем при беге и велоспорте.</p>    
       </details>
       </td>
     </tr>    
@@ -770,42 +706,21 @@ function App() {
       
       <details>      
       <summary className='Podrobnee'>подробнее</summary>
-      <div className='liSection'>
-      <tr>
-    <th scope="row" ><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'><span className='Candara3'>Бальнеотерапия</span>- это оздоровление минеральными водами и лечебными грязями.</td>
-    </tr>
-    <tr>
-      <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Мацеста рекомендуется при заболеваниях суставов, расстройствах нервной системы, сердечно-сосудистых и кожных
-заболеваниях, урологических и гинекологических, гастроэнтерологических, а также нарушении обменных процессов в организме.</td>
-    </tr>
-    <tr>
-    <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Минздравом РФ утверждены методики лечения на Мацесте<span className='Candara3'> более 1500</span>  заболеваний, с помощью сероводородных, родоновых,
-йодобромных ванн, питьевой минеральной мацестинской воды и грязелечения.
-<p className='Candara2'>* 30 мин. прогулки вдоль красивой набережной 
+      <div >
+      <p className='Candara2'>* 30 мин. прогулки вдоль красивой набережной 
 или 12 мин на маршрутке </p>
-</td>
-    </tr>
-    
-    <tr>
-      <th scope="row"><img src="/point.jpg" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Ученые в ходе исследований выяснили, что Мацестинский
-сероводород замедляет процесс старения, активизируя «гормон молодости» - <span className='Candara3'>Сиртуин-1</span>
-
-</td>
-    </tr>
-      </div>
-    
-    
-  
- 
+      <p><span className='Candara3'>Бальнеотерапия</span>- это оздоровление минеральными водами и лечебными грязями.</p>
+    <p>Мацеста рекомендуется при заболеваниях суставов, расстройствах нервной системы, сердечно-сосудистых и кожных
+заболеваниях, урологических и гинекологических, гастроэнтерологических, а также нарушении обменных процессов в организме.</p>
+    <p>Минздравом РФ утверждены методики лечения на Мацесте<span className='Candara3'> более 1500</span>  заболеваний, с помощью сероводородных, родоновых,
+йодобромных ванн, питьевой минеральной мацестинской воды и грязелечения.</p>
+    <p>Ученые в ходе исследований выяснили, что Мацестинский
+сероводород замедляет процесс старения, активизируя «гормон молодости» - <span className='Candara3'>Сиртуин-1</span></p>
+      </div> 
     <div><img src="/img12.jpg"  className='imgLi' alt="img"></img></div>
       </details>
       </td>
-    </tr>
-    
+    </tr>    
     </tbody>
   </table>
 </div>

@@ -41,7 +41,7 @@ header{
 }
 footer{
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
   background-color: rgb(65, 126, 172);
   padding: 7px;
   padding-left: 15px;
@@ -59,7 +59,8 @@ footer{
   font-size: 25px;
 }
 .logo2{
-  width: 150px;
+  width: 100%;
+  max-width: 130px;
 }
 .nav1{
   display: grid;
