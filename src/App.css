@@ -41,8 +41,8 @@ header{
 }
 footer{
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  background-color: rgb(122,171,185);
+  grid-template-columns: 1fr 5fr;
+  background-color: rgb(65, 126, 172);
   padding: 7px;
   padding-left: 15px;
  }
@@ -191,6 +191,11 @@ h2{
   font-size: 25px;
   color: rgb(1, 56, 71);
 }
+.Candara2White{
+  font-family: AlmaSans;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
 .Candara3{
     font-family: AlmaSans;
     font-size: 30px;
@@ -215,15 +220,10 @@ h2{
   grid-template-columns: 1fr 1fr;
   align-items: center;
   }
-  .liSectionM{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    margin-top: -150px;
-    margin-bottom: -150px;
-    }
+  
 .imgLi{
   width: 99%;
+  height: 99%;
   padding: 5px;
 }
 .AlmaItalic{
@@ -287,17 +287,11 @@ h2{
     grid-template-columns: 1fr 1.3fr;
     align-items: center;
 }
-.liSection5{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  }
 .GridThree{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
 }
-
 .Grid2x2{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -332,9 +326,15 @@ h2{
     grid-template-columns: 1fr;
     align-items: center;
     }
-  .imgLi{
-    height: 400px;
-    width: 400px;    
+  .nav2{
+    display: grid;  
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .imgSircl{
+    width: 90%;
+    border-radius: 50%;
+    border: 2px solid rgb(1, 3, 99);
   }
 }
 @media (max-width:767px){

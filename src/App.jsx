@@ -223,7 +223,7 @@ function App() {
 <br/> 
       <h3 className='Zagolovok'>Центр ведической культуры</h3> 
         
-<div className="liSection3">
+<div className="liSection">
 <div>
   <table cellspacing="30">
   <tbody>
@@ -262,7 +262,6 @@ function App() {
   <div><img src="/img174.jpg" className="imgCub" alt="img"></img></div>
 </div>
 </div>
-
 <br/>
       <h3 className='Zagolovok'>Гостевой дом</h3> 
    
@@ -350,13 +349,17 @@ function App() {
 </div>
 <br/>
 
-<div><img src="/img9.jpg" className="imgLi" alt="img"></img></div>
+<div >
+<div className='center-div'>
+<img src="/img9.jpg" className="imgLi" alt="img"></img>
+</div>
+</div>
 <br/>
 
 <h3 className='Zagolovok'>Ресурсы для обучения и мероприятий</h3> 
  
 <div className="liSection">
-<div>
+<div className='center-div'>
 <img src="/img210.jpg" className="imgLi" alt="img"></img>
 </div>
 <div>
@@ -458,7 +461,7 @@ function App() {
 
 <h3 className='Zagolovok'>Территория Ашрама</h3> 
  
-<div className="liSection">  
+<div className="liSection ">  
 <div>
   <table cellspacing="20">
   <tbody>
@@ -495,7 +498,7 @@ function App() {
     </tbody>
   </table>
 </div> 
-<div>
+<div className='center-div'>
 <img src="/img8.jpg" className="imgLi" alt="img"></img>
 </div>
 </div>
@@ -503,7 +506,7 @@ function App() {
 
 <h3 className='Zagolovok'>Расположение и окружение</h3> 
  
-<div className="liSection5">
+<div className="liSection">
 <div>
 <img src="/img11.jpg" className="imgLi" alt="img"></img>
 </div>
@@ -563,7 +566,7 @@ function App() {
   </div> 
 </div>
 <br/>
-<div className="liSection5">
+<div className="liSection">
 <div>
   <table class="table" cellspacing="20">
   <tbody>   
@@ -606,7 +609,7 @@ function App() {
 </div> 
 </div>
 <br/>
-<div className="liSection5">
+<div className="liSection">
 <div className='Grid2x2'>
   <div><img src="/img254.jpg" className="imgCub" alt="img"></img></div>
   <div><img src="/img257.jpg" className="imgCub" alt="img"></img></div>
@@ -692,17 +695,17 @@ function App() {
   </table>
 </div>
 
-<div>
+<div >
   <div><img src="/img265.jpg"  className='imgSicleSuperBig' alt="img"></img></div>
 </div> 
 </div>
 
-<div className="liSectionM">
-<div>
+<div className="liSection">
+<div >
   <div><img src="/img272.jpg"  className='imgSicleSuperBig' alt="img"></img></div>
 </div>
 <div>
-  <table class="table" cellspacing="20">
+  <table className="table" cellspacing="20">
   <tbody>
   <tr>
     <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
@@ -750,8 +753,7 @@ function App() {
     </tr>
       </details>
       </td>
-    </tr>
-    
+    </tr>    
     </tbody>
   </table>
   </div> 
@@ -759,7 +761,7 @@ function App() {
 
 <div className="liSection ">
 <div>
-<table class="table" cellspacing="0">
+<table className="table" cellspacing="20">
   <tbody>    
     <tr>
       <th scope="row" valign="top">
@@ -923,30 +925,19 @@ function App() {
 
 <br/>
 <footer>
-<div><img src="/logo2.png" className="logo2" alt="img"></img></div>
+<div><img src="/logoWhite.png" className="logo2" alt="img"></img></div>
   <div className="">
-    <h3 className='Alma'>Ашрам Сочи</h3>
-    <h4 className='Caveat'>Веды как образ жизни</h4>  
-    <p className='Candara2'>Адрес: г. Сочи, ул. Фурманова, д. 38</p>     
-  </div>
-    <h3 className='Candara2'>По вопросам организации:<br/>+7-988-487-65-27 Ольга 
-      <h2 href="#" className='Caveat'>Оставить заявку</h2>
+     
+    <h3 className='Candara2White'>Адрес: г. Сочи, ул. Фурманова, д. 38</h3>     
+  
+    <h3 className='Candara2White'>По вопросам организации:<br/>+7-988-487-65-27 Ольга 
+     
     </h3>
     
-  <div>
+  
 
   </div>
 </footer>
-
-
-
-
-
-
-
-
-
-
 </div> 
 </div>  
                
