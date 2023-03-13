@@ -18,13 +18,6 @@ function App() {
                 </div>
         <h3 className='ZagolovokGrey'>Проведи свой незабываемый отпуск в Ашраме Сочи!</h3>
 
-  <center>
-		<iframe className='video' src="https://www.youtube.com/embed/V2YEKpL_plI" 
-    title="YouTube video player" frameborder="0" allow="accelerometer; 
-    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</center>
-
-    
           <div className='nav2'>
             <div></div>            
             <div className='center-div'>
@@ -84,13 +77,18 @@ function App() {
 </div>
 </div>
 
+<center>
+		<iframe className='video' src="https://www.youtube.com/embed/V2YEKpL_plI" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; 
+    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+
 <h3 className='Zagolovok'>Приглашаем Вас в Ашрам Сочи и …</h3>
 
 <div>
 <img src="/placat.jpg" className="placat " alt="img"></img>
 </div>
-
-
 
 <div className='grid1 Candara2'>  
     <div className='ww'><img src="/img111.jpg" className="imgSircl" alt="img"></img></div>
