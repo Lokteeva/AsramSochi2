@@ -232,6 +232,20 @@ h2{
   text-align: start;
 }
 
+/*Slider*/
+.slider{
+margin: 20px;
+}
+.imgSlider{
+  width: 100%;
+}
+.slick-next:before{
+  color:black
+}
+.slick-prev:before{
+  color:black
+}
+
 @media (max-width:1200px){
   .container{
     max-width: 970px;

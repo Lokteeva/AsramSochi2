@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react';
 import Modal from './Components/Modal/Modal'
+import ModalZayavka from './Components/ModalZayavka/ModalZayavka';
+import MySlider from "./Components/mySlider"
 
 function App() {
   return (
@@ -22,7 +24,7 @@ function App() {
             <Modal />
             </div>
           </div>         
-         
+         <ModalZayavka/>
 <h3 className='Zagolovok'>Практика или отдых и оздоровление?</h3>
                   
 <div className="liSection">
@@ -103,10 +105,6 @@ function App() {
         </div>
 </div>
   
-  
- 
-
-
 <div className='Candara3 liSection2'>
 <div>
 <img src="/img128.png" className="imgSirclBigPolovina" alt="img"></img>
@@ -836,6 +834,9 @@ function App() {
 <p className='Candara2'>* SUP серфинг - это скольжение по воде при помощи доски и весла</p>
 <br/>
 
+<MySlider />
+<br/>
+
 <footer>
 <div><img src="/logoWhite.png" className="logo2" alt="img"></img></div>
   <div >     
@@ -844,6 +845,9 @@ function App() {
     </h3>
   </div>
 </footer>
+
+
+
 </div> 
 </div>  
                
