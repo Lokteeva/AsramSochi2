@@ -4,6 +4,7 @@ import Modal from './Components/Modal/Modal'
 import ModalZayavka from './Components/ModalZayavka/ModalZayavka';
 import MySlider from "./Components/mySlider"
 
+
 function App() {
   return (
     <div className='container'>
@@ -16,7 +17,14 @@ function App() {
                 <img src={'/img10.jpg'} alt="img" className='imgBanner' width="100%"/> 
                 </div>
         <h3 className='ZagolovokGrey'>Проведи свой незабываемый отпуск в Ашраме Сочи!</h3>
-        
+
+  <center>
+		<iframe className='video' src="https://www.youtube.com/embed/V2YEKpL_plI" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; 
+    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
+
+    
           <div className='nav2'>
             <div></div>            
             <div className='center-div'>
@@ -81,6 +89,8 @@ function App() {
 <div>
 <img src="/placat.jpg" className="placat " alt="img"></img>
 </div>
+
+
 
 <div className='grid1 Candara2'>  
     <div className='ww'><img src="/img111.jpg" className="imgSircl" alt="img"></img></div>
