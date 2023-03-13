@@ -26,7 +26,7 @@ function App() {
             </div>
           </div>         
          <ModalZayavka/>
-<h3 className='Zagolovok'>Практика или отдых и оздоровление?</h3>
+<h3 className='Zagolovok'>Что для Вас важно?</h3>
                   
 <div className="liSection">
 <div>
@@ -36,39 +36,27 @@ function App() {
       <th scope="row">
       <img src="/logo.png" className="imgLogo" alt="img"></img>
       </th>
-      <td className='Candara2'>погружение в <strong className='Candara3'>духовную практику</strong>
- </td>
+      <td className='Candara2'>духовная практика</td>
     </tr>
     <tr>
     <th scope="row"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>новое общение, обучение и <strong className='Candara3'>развитие</strong> </td>
+      <td className='Candara2'>обучение и правильное общение</td>
     </tr>
     <tr>
       <th scope="row"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'> спорт или активный отдых на <strong className='Candara3'>море</strong>, в <strong className='Candara3'>горах</strong></td>
+      <td className='Candara2'>спорт, море, горы и  путешествия</td>
     </tr>
     <tr>
       <th scope="row">
       <img src="/logo.png" className="imgLogo" alt="img"></img>
       </th>
-      <td className='Candara2'>комфортное комплексное <strong className='Candara3'>оздоровление</strong></td>
+      <td className='Candara2'>интересный детский досуг</td>
     </tr>
     <tr>
     <th scope="row"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>живые эмоции и насыщенные <strong className='Candara3'>путешествия</strong></td>
+      <td className='Candara2'>комфортное комплексное оздоровление</td>
     </tr>
-    <tr>
-      <th scope="row">
-      <img src="/logo.png" className="imgLogo" alt="img"></img>
-      </th>
-      <td className='Candara2'>тихий семейный отдых и интересный <strong className='Candara3'>детский досуг</strong></td>
-    </tr>
-    <tr>
-    <th scope="row"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>все или более одного варианта, такой мой 
-<strong className='Candara3'> отпуск лучший!</strong></td>
-    </tr>
-  </tbody>
+   </tbody>
   </table>
 </div> 
 
@@ -145,10 +133,6 @@ function App() {
     <tr>
     <th scope="row"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
       <td className='Candara2'>Брахмачари и Брахмачарини ашрамы</td>
-    </tr>
-    <tr>
-      <th scope="row"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Ванапрасха ашрам и команда служащих</td>
     </tr>
     <tr>
       <th scope="row">
@@ -243,7 +227,7 @@ function App() {
     </tr>
     <tr>
       <th scope="row"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Городские мероприятия</td>
+      <td className='Candara2'>МАНТРА-концерты</td>
     </tr>
     <tr>
       <th scope="row">
@@ -287,7 +271,7 @@ function App() {
     <tr>
     <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
     <td className='Candara2'>
-      Питание
+    Вегетарианское питание  
       <details>
         <summary className='Podrobnee'>подробнее</summary>
         <p>2х разовое вегетарианское (прасад)</p>
@@ -320,7 +304,7 @@ function App() {
     </tr>
     <tr>
       <th scope="row" valign="top"><img src="/logo.png" className="imgLogo" alt="img"></img></th>
-      <td className='Candara2'>Кафе
+      <td className='Candara2'>Вегетарианское кафе 
       <details>
         <summary className='Podrobnee'>подробнее</summary>
         <p>вегетарианское меню (прасад, возможен заказ и кэйтеринг)</p>
