@@ -3,6 +3,8 @@ import React from 'react';
 import Modal from './Components/Modal/Modal'
 import ModalZayavka from './Components/ModalZayavka/ModalZayavka';
 import MySlider from "./Components/mySlider"
+import { Link, Route, Routes } from 'react-router-dom'
+import Form from './Components/Form/Form';
 
 
 function App() {
@@ -21,7 +23,11 @@ function App() {
           <div className='nav2'>
             <div></div>            
             <div className='center-div'>
-            <button className='btn1'>Оставить заявку</button> 
+          
+            <Link exact to={'/form'}>
+              <button className='btn1'>Оставить заявку</button> 
+            </Link>            
+
             <Modal />
             </div>
           </div>         
@@ -828,6 +834,10 @@ function App() {
 
 <MySlider />
 <br/>
+
+<Routes>
+  <Route path='/form' element={ <Form/>}/>
+</Routes>
 
 <footer>
 <div><img src="/logoWhite.png" className="logo2" alt="img"></img></div>
